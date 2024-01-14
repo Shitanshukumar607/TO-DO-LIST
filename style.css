@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(to right, #0c0c0c, #1c1c1c);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #252525;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.inputs {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"] {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    flex-grow: 1;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.textdiv {
+    margin: 20px 0;
+}
+
+.textdiv p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.textdiv span {
+    color: #66ccff;
+    font-weight: bold;
+}
+
+.tasksdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 5px 15px;
+    border-radius: 8px;
+    gap:5px;
+}
+
+.checkboxinput {
+    margin-right: 10px;
+    transform:scale(1.5);
+}
+
+.tasktext {
+    flex-grow: 1;
+    font-size: 18px;
+}
+
+button i {
+    font-size: 16px;
+}
+
+.editbtn {
+    background-color: #2196F3;
+}
+
+.delbtn {
+    background-color: #f44336;
+}
